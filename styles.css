@@ -62,27 +62,76 @@ li {
 .info {
   color: var(--dark-blue);
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cube {
+  border: var(--blue) solid 4px;
+  border-radius: 10px;
+  height: 175px;
+  width: 175px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  padding: 1em;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  padding: 0px 50px 100px 50px;
+  gap: 15px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
 }
 
 .quote {
   background-color: var(--light-grey);
   color: var(--dark-blue);
+}
+
+.quote-pad {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5em;
+}
+
+.quote-author {
+  align-self: flex-end;
 }
 
 .cta {
   color: var(--lighter-grey);
   display: flex;
+  justify-content: center;
+  padding: 6em 0 6em 0;
 }
 
 .cta-box {
   background-color: var(--blue);
+  padding: 2em 10em 2em 10em;
+  border-radius: 8px;
 }
 
 .footer {
   background-color: var(--dark-blue);
   color: var(--lighter-grey);
   display: flex;
+  justify-content: center;
+  padding: 3em;
 }
 
 .logo {
@@ -105,4 +154,35 @@ li {
 }
 .hero-text {
   font-size: 18px;
+}
+
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 30px 8px 30px;
+  border-radius: 8px;
+}
+
+.hero-btn {
+  border: none;
+  background-color: var(--blue);
+  color: var(--lighter-grey);
+}
+
+.cta-pad {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.cta-btn {
+  border-color: var(--lighter-grey);
+  color: var(--lighter-grey);
+  background-color: var(--blue);
+}
+
+.cta-header {
+  font-size: 24px;
+  margin: 0;
 }
