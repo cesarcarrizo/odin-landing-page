@@ -1,0 +1,82 @@
+:root {
+  box-sizing: border-box;
+  --dark-blue: #1f2937;
+  --lighter-grey: #f9faf8;
+  --light-grey: #e5e7eb;
+  --blue: #3882f6;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--lighter-grey);
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 28px;
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.navbar {
+  background-color: var(--dark-blue);
+  color: var(--lighter-grey);
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  background-color: var(--dark-blue);
+  color: var(--lighter-grey);
+  display: flex;
+}
+
+.info {
+  color: var(--dark-blue);
+  display: flex;
+}
+
+.quote {
+  background-color: var(--light-grey);
+  color: var(--dark-blue);
+  display: flex;
+}
+
+.cta {
+  color: var(--lighter-grey);
+  display: flex;
+}
+
+.cta-box {
+  background-color: var(--blue);
+}
+
+.footer {
+  background-color: var(--dark-blue);
+  color: var(--lighter-grey);
+  display: flex;
+}
+
+.logo {
+  font-size: 24px;
+}
